@@ -6,7 +6,7 @@
     background-size: contain;
     margin: 0 auto;
     position: relative;
-    background-color: aqua;
+    object-fit: none;
 }
 
 .klass_icoon {
@@ -23,13 +23,116 @@
 
 #K1A {
     position: absolute;
-    margin-left: 10vw;
-    margin-top: 10vh;
+    margin-left: 64vw;
+    margin-top: 41vh;
+}
+#K1B {
+    position: absolute;
+    margin-left: 51vw;
+    margin-top: 38vh;
 }
 
 #K2A {
     position: absolute;
-    margin-left: 15vw;
-    margin-top: 12vh;
+    margin-left: 42vw;
+    margin-top: 30vh;
+}
+#K2B {
+    position: absolute;
+    margin-left: 31vw;
+    margin-top: 15vh;
 }
 
+#K3A {
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 17vh;
+}
+#K3B {
+    position: absolute;
+    margin-left: 37vw;
+    margin-top: 54vh;
+}
+
+#SPA {
+    position: absolute;
+    margin-left: 67vw;
+    margin-top: 55vh;
+}
+#SPB {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 55vh;
+}
+
+#dir21 {
+    position: absolute;
+    margin-left: 54vw;
+    margin-top: 9vh;
+}
+
+#L1A {
+    position: absolute;
+    margin-left: 54vw;
+    margin-top: 25vh;
+}
+#L1B {
+    position: absolute;
+    margin-left: 49vw;
+    margin-top: 25vh;
+}
+
+#L2A {
+    position: absolute;
+    margin-left: 38vw;
+    margin-top: 43vh;
+}
+#L2B {
+    position: absolute;
+    margin-left: 26vw;
+    margin-top: 67vh;
+}
+
+#L3A {
+    position: absolute;
+    margin-left: 46vw;
+    margin-top: 13vh;
+}
+#L3B {
+    position: absolute;
+    margin-left: 34vw;
+    margin-top: 37vh;
+}
+
+#L4A {
+    position: absolute;
+    margin-left: 52vw;
+    margin-top: 66vh;
+}
+#L4B {
+    position: absolute;
+    margin-left: 71vw;
+    margin-top: 41vh;
+}
+
+#L5A {
+    position: absolute;
+    margin-left: 67vw;
+    margin-top: 23vh;
+}
+#L5B {
+    position: absolute;
+    margin-left: 46vw;
+    margin-top: 57vh;
+}
+
+#L6 {
+    position: absolute;
+    margin-left: 49vw;
+    margin-top: 47vh;
+}
+#LO {
+    position: absolute;
+    margin-left: 57vw;
+    margin-top: 49vh;
+}
