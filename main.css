@@ -9,18 +9,28 @@
     object-fit: none;
 }
 
-.klass_icoon {
+.klas_icoon {
     width: 3vw;
-    border: 1px solid red;
     text-align: center;
 }
 
-.klass_icoon img, p {
+.klas_icoon img, p {
     width: 100%;
     height: 100%;
     margin: 0;
 }
 
+.klas_naam {
+    background-color: white;
+    border: 1px solid black;
+    visibility: hidden;
+}
+
+.klas_icoon img {
+    cursor: pointer;
+}
+
+/* klas icoon posities */
 #K1A {
     position: absolute;
     margin-left: 64vw;
@@ -135,4 +145,79 @@
     position: absolute;
     margin-left: 57vw;
     margin-top: 49vh;
+}
+
+/* hover */
+#K1A :hover ~ #p_K1A {
+    visibility: visible;
+}
+#K1B :hover ~ #p_K1B {
+    visibility: visible;
+}
+
+#K2A :hover ~ #p_K2A {
+    visibility: visible;
+}
+#K2B :hover ~ #p_K2B {
+    visibility: visible;
+}
+
+#K3A :hover ~ #p_K3A {
+    visibility: visible;
+}
+#K3B :hover ~ #p_K3B {
+    visibility: visible;
+}
+
+#SPA :hover ~ #p_SPA {
+    visibility: visible;
+}
+#SPB :hover ~ #p_SPB {
+    visibility: visible;
+}
+
+#dir21 :hover ~ #p_dir21 {
+    visibility: visible;
+}
+
+#L1A :hover ~ #p_L1A {
+    visibility: visible;
+}
+#L1B :hover ~ #p_L1B {
+    visibility: visible;
+}
+
+#L2A :hover ~ #p_L2A {
+    visibility: visible;
+}
+#L2B :hover ~ #p_L2B {
+    visibility: visible;
+}
+
+#L3A :hover ~ #p_L3A {
+    visibility: visible;
+}
+#L3B :hover ~ #p_L3B {
+    visibility: visible;
+}
+
+#L4A :hover ~ #p_L4A {
+    visibility: visible;
+}
+#L4B :hover ~ #p_L4B {
+    visibility: visible;
+}
+
+#L5A :hover ~ #p_L5A {
+    visibility: visible;
+}
+#L5B :hover ~ #p_L5B {
+    visibility: visible;
+}
+
+#L6 :hover ~ #p_L6 {
+    visibility: visible;
+}
+#LO :hover ~ #p_LO {
+    visibility: visible;
 }
