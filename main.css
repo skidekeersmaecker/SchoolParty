@@ -12,6 +12,7 @@ body{
     width: 80vw;
     height: 85vh;
     z-index: 1;
+    visibility: hidden;
 }
 #btnSluitGallerij{
     float: right;
