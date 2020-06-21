@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="gallery.js">
         <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
          <!-- jQuery -->
          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
@@ -15,6 +16,7 @@
          <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/2.4.2/jquery.nanogallery2.min.js"></script>
     </head>
     <body>
+        
         <div id="map">
             <!-- kleuters -->
             <div id="K1A" class="klas_icoon">
@@ -105,10 +107,23 @@
             
         </div>
         <div id="gallerij">
-            <!--<button id="btnSluitGallerij" aria-label="Sluit Gallerij" onclick="SluitGallerij()">×</button>
-            <div id="nanogallery2">gallery_made_with_nanogallery2</div>-->
+            <button id="btnSluitGallerij" aria-label="Sluit Gallerij" onclick="SluitGallerij()">×</button>
+            <div id="nanogallery2">gallery_made_with_nanogallery2</div>
         </div>
-        
+        <div id="TitelBar">
+            <div>
+                <div id="School">Het Groene Eilandje</div>
+                <div id="SchoolParty">DIGITAL SCHOOLPARTY</div>
+            </div>
+            <a href="#" id="ToonVisie" onclick="ToonVisie()">Toon Visie</a>
+        </div>
+        <div id="visie">
+            <button id="btnSluitVisie" aria-label="Sluit Visie" onclick="SluitVisie()">×</button>
+            <video controls>
+                <source src="images/Het Groene Eilandje.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+        </div>
         <script src="main.js" async defer></script>
     </body>
 </html>

@@ -2,16 +2,66 @@ body{
     font-family: 'Kosugi Maru', sans-serif;
 }
 
+#TitelBar{
+    position: absolute;
+    top: 4vh;
+    left: 2vw;
+    z-index: 2;
+}
+#School{
+    width: 48vw;
+    float: left;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+#SchoolParty{
+    width: 48vw;
+    padding-right: 2vw;
+    float: right;
+    text-align: right;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+#ToonVisie{
+    font-size: 1vw;
+}
+#visie{
+    position: absolute;
+    margin: auto;
+    top: 1vh;
+    left: 10vw;
+    width: 80vw;
+    height: 85vh;
+    z-index: 2;
+    visibility: collapse;
+}
+#visie video{
+    width: 80vw;
+    margin: auto;
+}
+#btnSluitVisie{
+    height: 30px;
+    width: 30px;
+    float: right;
+    font-size: 25px;
+    color: red;
+    border: hidden;
+    background-color: white;
+}
+#btnSluitVisie:hover{
+    cursor: pointer;
+}
+
 /* GALLERY */
 #gallerij{
-    background-color: lightgray;
+    background-color: transparent;
     border: 2px solid red;
     position: relative;
     margin: auto;
     top: 5vh;
     width: 80vw;
     height: 85vh;
-    z-index: 1;
+    z-index: 3;
     visibility: hidden;
 }
 #btnSluitGallerij{
@@ -21,7 +71,7 @@ body{
     font-size: 25px;
     color: red;
     border: hidden;
-    background-color: lightgray;
+    background-color: white;
 }
 #btnSluitGallerij:hover{
     cursor: pointer;
