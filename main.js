@@ -5,7 +5,7 @@ function KlikKlas(klas){
     SpeelGeluid(klas);
     MaakMedia(klas);
 
-    jQuery('#nanogallery2').nanogallery2('destroy');
+    //jQuery('#nanogallery2').nanogallery2('destroy');
     jQuery("#nanogallery2").nanogallery2( {
         // ### gallery settings ### 
         thumbnailHeight:  300,
@@ -20,7 +20,7 @@ function KlikKlas(klas){
 
 function MaakMedia(klas){
     media = [];
-    for(i = 1; i < 6; i++){
+    for(i = 1; i < 11; i++){
         //FOTO
         if(doesFileExist('images/kunst/' + klas + '/' + klas + '-' + i + '.jpg')){
             media.push({ src: 'images/kunst/' + klas + '/' + klas + '-' + i + '.jpg', srct: 'images/kunst/' + klas + '/' + klas + '-' + i + '.jpg', title: '' });
@@ -53,6 +53,7 @@ function doesFileExist(urlToFile) {
 
 function SluitGallerij(){
     document.getElementById('gallerij').style.visibility = "hidden";
+    jQuery('#nanogallery2').nanogallery2('destroy');
 }
 
 function ToonVisie(){
